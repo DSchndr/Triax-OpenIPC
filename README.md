@@ -6,7 +6,7 @@ Set your PC IP to `192.168.1.2`, Subnet `/24`
 
 Get a tftp server like Open TFTP Server and start it, drop the files from the archive in the server directory.
 
-In the Webinterface (admin:123456) go to Setup->Network->Port, enable telnet there and save. 
+In the Webinterface (192.168.1.10admin:123456) go to Setup->Network->Port, enable telnet there and save. 
 
 (If you are fast enough to login and run `kill -5 hunter` - telnet is enabled at boottime for a short period :) )
 
